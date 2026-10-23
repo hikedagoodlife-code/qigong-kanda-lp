@@ -161,3 +161,7 @@ body{padding-bottom:0}
 .series li.has-link a:hover .s-t{text-decoration:underline}
 .series .s-tag-sub{background:transparent;color:var(--accent);border:1px solid var(--accent);line-height:20px}
 .prev-link a,.final .prev-link a{color:inherit;text-decoration:underline}
+
+/* 6月号：写真の高さをそろえる */
+.crop-p img{aspect-ratio:4/5;object-fit:cover;object-position:center top}
+.crop-l img{aspect-ratio:5/4;object-fit:cover;object-position:center}
